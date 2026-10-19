@@ -6,3 +6,5 @@ python-dotenv
 pymupdf
 chromadb
 sentence-transformers
+langchain-chroma 
+langchain-huggingface
