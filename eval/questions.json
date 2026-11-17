@@ -1,0 +1,916 @@
+[
+  {
+    "id": "msft-fy2021-01",
+    "company": "MSFT",
+    "fiscal_year": 2021,
+    "question": "How many people did Microsoft employ full-time as of June 30, 2021, and how many were in the U.S. versus international?",
+    "gold_answer": "About 181,000 in total: 103,000 in the U.S. and 78,000 internationally. (Page 8, Human Capital Resources)",
+    "file": "MSFT_FY2021_10K.pdf",
+    "page": 8,
+    "evidence": [
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 8
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2021-02",
+    "company": "MSFT",
+    "fiscal_year": 2021,
+    "question": "What were Microsoft’s fiscal year 2021 total revenue, net income, and diluted EPS?",
+    "gold_answer": "Revenue was $168,088 million, net income was $61,271 million, and diluted EPS was $8.05. (Page 43, Summary Results of Operations; also the Income Statements on page 57)",
+    "file": "MSFT_FY2021_10K.pdf",
+    "page": 43,
+    "evidence": [
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 43
+      },
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 57
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2021-03",
+    "company": "MSFT",
+    "fiscal_year": 2021,
+    "question": "Which segment had the highest FY2021 revenue, and what was its revenue growth and operating income?",
+    "gold_answer": "Intelligent Cloud had the highest revenue at $60,080 million, up 24% from $48,366 million. Its operating income was $26,126 million, up 43%. (Page 44, Segment Results of Operations)",
+    "file": "MSFT_FY2021_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2021-04",
+    "company": "MSFT",
+    "fiscal_year": 2021,
+    "question": "What change in accounting estimate did Microsoft make in July 2020, and what was its effect on FY2021 results?",
+    "gold_answer": "It extended the useful life of server equipment from three to four years and network equipment from two to four years. This raised operating income by $2.7 billion and net income by $2.3 billion, or $0.30 per basic and diluted share. (Page 41, Item 7)",
+    "file": "MSFT_FY2021_10K.pdf",
+    "page": 41,
+    "evidence": [
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 41
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2021-05",
+    "company": "MSFT",
+    "fiscal_year": 2021,
+    "question": "What were the terms of Microsoft’s agreement to acquire Nuance Communications, and when was it expected to close?",
+    "gold_answer": "The April 11, 2021 agreement was for $56.00 per share in an all-cash deal valued at $19.7 billion, including Nuance’s net debt. Closing was expected by the end of calendar year 2021, subject to closing conditions. (Page 51, Other Planned Uses of Capital; also page 78)",
+    "file": "MSFT_FY2021_10K.pdf",
+    "page": 51,
+    "evidence": [
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 51
+      },
+      {
+        "file": "MSFT_FY2021_10K.pdf",
+        "page": 78
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2022-01",
+    "company": "MSFT",
+    "fiscal_year": 2022,
+    "question": "What was the FY2022 revenue for the cloud business that was previously called “commercial cloud”?",
+    "gold_answer": "It is now called Microsoft Cloud, and its revenue rose 32% to $91.2 billion.",
+    "file": "MSFT_FY2022_10K.pdf",
+    "page": 40,
+    "evidence": [
+      {
+        "file": "MSFT_FY2022_10K.pdf",
+        "page": 40
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2022_10K.pdf, p.40"
+  },
+  {
+    "id": "msft-fy2022-02",
+    "company": "MSFT",
+    "fiscal_year": 2022,
+    "question": "What was Azure’s standalone revenue in dollars for FY2022?",
+    "gold_answer": "The document doesn’t say. It only gives growth: Azure and other cloud services grew 45%. A good system should say so and not guess a number.",
+    "file": "MSFT_FY2022_10K.pdf",
+    "page": 40,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": true,
+    "source_note": "MSFT_FY2022_10K.pdf, p.40 and p.44 (growth figure only, no dollar amount)"
+  },
+  {
+    "id": "msft-fy2023-01",
+    "company": "MSFT",
+    "fiscal_year": 2023,
+    "question": "What role does Azure play for OpenAI, according to Microsoft’s FY2023 10-K?",
+    "gold_answer": "Microsoft says Azure is OpenAI’s exclusive cloud provider and powers all of OpenAI’s workloads. It also says it increased its investment in supercomputing systems to accelerate OpenAI’s research. The risk-factors section separately mentions that in January 2023 Microsoft announced the third phase of its OpenAI strategic partnership.",
+    "file": "MSFT_FY2023_10K.pdf",
+    "page": 7,
+    "evidence": [
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 7
+      },
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 27
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": true,
+    "source_note": "MSFT_FY2023_10K.pdf, PDF p.7 (printed p.5); the January 2023 mention is on PDF p.27 (printed p.25)"
+  },
+  {
+    "id": "msft-fy2023-02",
+    "company": "MSFT",
+    "fiscal_year": 2023,
+    "question": "What was the “Q2 charge” in fiscal 2023, what did it consist of, and how many jobs were cut?",
+    "gold_answer": "It was a $1.2 billion charge in Q2 FY2023, announced January 18, 2023. It included $800 million of employee severance, impairment charges from changes to the hardware portfolio, and lease-consolidation costs. Microsoft reduced its workforce by about 10,000 jobs through Q3 FY2023, which is less than 5% of its employee base.",
+    "file": "MSFT_FY2023_10K.pdf",
+    "page": 43,
+    "evidence": [
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 43
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2023_10K.pdf, PDF p.43 (printed p.41)"
+  },
+  {
+    "id": "msft-fy2023-03",
+    "company": "MSFT",
+    "fiscal_year": 2023,
+    "question": "What was the status of the Activision Blizzard acquisition in the FY2023 10-K?",
+    "gold_answer": "It was still pending. The deal is $95.00 per share, all cash, valued at $68.7 billion. Microsoft and Activision Blizzard had jointly agreed to extend the merger agreement through October 18, 2023 to resolve remaining regulatory concerns. This differs from the FY2022 filing, which said the deal was expected to close in fiscal year 2023.",
+    "file": "MSFT_FY2023_10K.pdf",
+    "page": 54,
+    "evidence": [
+      {
+        "file": "MSFT_FY2022_10K.pdf",
+        "page": 52
+      },
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 54
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": true,
+    "source_note": "MSFT_FY2023_10K.pdf, PDF p.54 (printed p.52); the FY2022 comparison is in MSFT_FY2022_10K.pdf, p.52"
+  },
+  {
+    "id": "msft-fy2024-01",
+    "company": "MSFT",
+    "fiscal_year": 2024,
+    "question": "What did Microsoft ultimately pay for Activision Blizzard, and when did the deal close?",
+    "gold_answer": "It closed on October 13, 2023 at a total purchase price of $75.4 billion, consisting primarily of cash (Note 8 shows $75,408M). That is higher than the $68.7 billion announced price quoted in the FY2022 and FY2023 filings. Xbox content and services revenue rose 50%, with 44 points coming from the net impact of the acquisition.",
+    "file": "MSFT_FY2024_10K.pdf",
+    "page": 56,
+    "evidence": [
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 54
+      },
+      {
+        "file": "MSFT_FY2024_10K.pdf",
+        "page": 56
+      },
+      {
+        "file": "MSFT_FY2024_10K.pdf",
+        "page": 109
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": true,
+    "source_note": "MSFT_FY2024_10K.pdf, PDF p.56 (printed p.39) and PDF p.109 (Note 8). The $68.7B comparison is in MSFT_FY2023_10K.pdf, PDF p.54."
+  },
+  {
+    "id": "msft-fy2024-02",
+    "company": "MSFT",
+    "fiscal_year": 2024,
+    "question": "What agreement did Microsoft make with Inflection AI in March 2024, and why is it disclosed as a related-party transaction?",
+    "gold_answer": "Microsoft obtained a non-exclusive license to Inflection’s intellectual property. It is a related-party item because Reid Hoffman, a Microsoft board member, is a co-founder of Inflection and sits on its board. Reprogrammed Interchange LLC and entities affiliated with Greylock Ventures (both linked to Hoffman) each held less than 10% of Inflection at the time. He did not participate in the board’s review of the deal.",
+    "file": "MSFT_FY2024_10K.pdf",
+    "page": 98,
+    "evidence": [
+      {
+        "file": "MSFT_FY2024_10K.pdf",
+        "page": 98
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2024_10K.pdf, PDF p.98 (printed p.68)"
+  },
+  {
+    "id": "msft-fy2024-03",
+    "company": "MSFT",
+    "fiscal_year": 2024,
+    "question": "What was Microsoft’s effective tax rate in FY2022, FY2023 and FY2024, and why did it fall in FY2024?",
+    "gold_answer": "The rates were 13%, 19% and 18%. The FY2024 decrease came mainly from tax law changes: IRS Notice 2023-55 (Q1 FY2024) delayed the effective date of the final foreign tax credit regulations to FY2024 for Microsoft, and Notice 2023-80 (Q2 FY2024) delayed it indefinitely.",
+    "file": "MSFT_FY2024_10K.pdf",
+    "page": 68,
+    "evidence": [
+      {
+        "file": "MSFT_FY2023_10K.pdf",
+        "page": 50
+      },
+      {
+        "file": "MSFT_FY2024_10K.pdf",
+        "page": 68
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": true,
+    "source_note": "MSFT_FY2024_10K.pdf, PDF p.68 (printed p.47) for 18% and 19%. MSFT_FY2023_10K.pdf, PDF p.50 for 19% and 13%."
+  },
+  {
+    "id": "msft-fy2024-04",
+    "company": "MSFT",
+    "fiscal_year": 2024,
+    "question": "How many Copilot subscribers did Microsoft have at the end of FY2024?",
+    "gold_answer": "The filing doesn’t say. It gives no subscriber count or revenue for Copilot for Microsoft 365, GitHub Copilot or Copilot Pro on their own. The only nearby figure is 82.5 million, which counts Microsoft 365 Consumer and Copilot Pro subscribers combined. A good system should say the number isn’t disclosed and explain what the 82.5M covers, not give it as the Copilot count. I grepped every Copilot mention in the text to confirm.",
+    "file": "MSFT_FY2024_10K.pdf",
+    "page": 56,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": true,
+    "source_note": "MSFT_FY2024_10K.pdf, PDF p.56 (printed p.39) for the 82.5M figure, and PDF p.59 for the metric definition"
+  },
+  {
+    "id": "msft-fy2025-01",
+    "company": "MSFT",
+    "fiscal_year": 2025,
+    "question": "What were Microsoft’s revenue, net income, and diluted earnings per share for fiscal year 2025?",
+    "gold_answer": "Revenue was $281,724 million, net income was $101,832 million, and diluted earnings per share was $13.64.",
+    "file": "MSFT_FY2025_10K.pdf",
+    "page": 54,
+    "evidence": [
+      {
+        "file": "MSFT_FY2025_10K.pdf",
+        "page": 54
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2025_10K.pdf, p.54 (printed p.38)"
+  },
+  {
+    "id": "msft-fy2025-02",
+    "company": "MSFT",
+    "fiscal_year": 2025,
+    "question": "How much did Microsoft Cloud revenue increase in fiscal year 2025?",
+    "gold_answer": "Microsoft Cloud revenue increased 23% to $168.9 billion.",
+    "file": "MSFT_FY2025_10K.pdf",
+    "page": 49,
+    "evidence": [
+      {
+        "file": "MSFT_FY2025_10K.pdf",
+        "page": 49
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2025_10K.pdf, p.49"
+  },
+  {
+    "id": "msft-fy2025-03",
+    "company": "MSFT",
+    "fiscal_year": 2025,
+    "question": "How many people did Microsoft employ full-time as of June 30, 2025?",
+    "gold_answer": "Approximately 228,000 people, 125,000 in the U.S. and 103,000 internationally.",
+    "file": "MSFT_FY2025_10K.pdf",
+    "page": 14,
+    "evidence": [
+      {
+        "file": "MSFT_FY2025_10K.pdf",
+        "page": 14
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2025_10K.pdf, p.14"
+  },
+  {
+    "id": "msft-fy2025-04",
+    "company": "MSFT",
+    "fiscal_year": 2025,
+    "question": "What does the filing say about the OpenAI API and Azure?",
+    "gold_answer": "The OpenAI API is exclusive to Azure, runs on Azure, and is available through the Azure OpenAI Service. Microsoft also has a right of first refusal on OpenAI’s new capacity needs.",
+    "file": "MSFT_FY2025_10K.pdf",
+    "page": 49,
+    "evidence": [
+      {
+        "file": "MSFT_FY2025_10K.pdf",
+        "page": 49
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2025_10K.pdf, p.49"
+  },
+  {
+    "id": "msft-fy2025-05",
+    "company": "MSFT",
+    "fiscal_year": 2025,
+    "question": "What were Microsoft’s net cash from operations and additions to property and equipment in fiscal year 2025?",
+    "gold_answer": "Net cash from operations was $136,162 million. Additions to property and equipment were $64,551 million (shown as an outflow in the cash flows statement).",
+    "file": "MSFT_FY2025_10K.pdf",
+    "page": 74,
+    "evidence": [
+      {
+        "file": "MSFT_FY2025_10K.pdf",
+        "page": 74
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "MSFT_FY2025_10K.pdf, p.74 (printed p.53)"
+  },
+  {
+    "id": "msft-fy2026-01",
+    "company": "MSFT",
+    "fiscal_year": 2026,
+    "question": "what are Microsoft executive officers as of july, 2026",
+    "gold_answer": "Our executive officers as of July 29, 2026 were as follows: Name Age Position with the Company Satya Nadella Judson B. Althoff Amy L. Coleman Amy E. Hood Takeshi Numoto Bradford L. Smith 58 Chairman and Chief Executive Officer 53 Chief Executive Officer, Microsoft Commercial Business 54 Executive Vice President and Chief Human Resources Officer 54 Executive Vice President and Chief Financial Officer 55 Executive Vice President and Chief Marketing Officer 67 Vice Chair and President",
+    "file": "MSFT_FY2026_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2026-02",
+    "company": "MSFT",
+    "fiscal_year": 2026,
+    "question": "what are some of the latest intellectual property risks for Microsoft?",
+    "gold_answer": "INTELLECTUAL PROPERTY RISKS We face risks related to the protection and utilization of our intellectual property that may result in our business and operating results being harmed. Protecting our intellectual property rights and combating unlicensed copying and use of our software, source code, trade secrets, and other intellectual property on a global basis is difficult. Similarly, the absence of harmonized patent laws makes it more difficult to ensure consistent respect for patent rights. Source code, the detailed program commands for our software programs, is critical to our business. Unauthorized access to or disclosure of source code or other intellectual property may negatively impact future trade secret protection for that intellectual property. It may then become easier for third parties to compete with our products by copying functionality, which could adversely affect our results of operations. Unauthorized access to or disclosure of source code or other intellectual property also increases the security risks described elsewhere in these risk factors. Third parties may claim that we infringe their intellectual property. From time to time, others claim we infringe their intellectual property rights, including current copyright infringement and other claims arising from AI training, inference, and output. To resolve these claims, we may enter into royalty-bearing data access or licensing agreements on terms that are less favorable than currently available, stop selling or redesign affected products or services, or pay damages to satisfy indemnification commitments with our customers. Adverse outcomes could also include monetary damages or injunctive relief that may limit or prevent importing, marketing, and selling our products or services that have infringing technologies. We have paid significant amounts to settle claims related to the use of technology and intellectual property rights and to procure intellectual property rights as part of our strategy to manage this risk, and may continue to do so, which could adversely affect our results of operations.",
+    "file": "MSFT_FY2026_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "msft-fy2026-03",
+    "company": "MSFT",
+    "fiscal_year": 2026,
+    "question": "compare Fiscal Year 2026 Compared with Fiscal Year 2025 in terms of revenue",
+    "gold_answer": "Revenue increased $50.1 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue decreased driven by XBOX (formerly Gaming), offset in part by growth in Search advertising. Cost of revenue increased $18.5 billion or 21% driven by growth in Microsoft Cloud. Gross margin increased $31.6 billion or 16% with growth across each of our segments. • Gross margin percentage decreased slightly driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud. • Microsoft Cloud gross margin percentage decreased to 66% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud. Operating expenses increased $4.9 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, impairment and other related expenses in our XBOX business, investments in commercial sales, and higher Copilot advertising expenses. Operating income increased $26.7 billion or 21% driven by growth in Productivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. (Pg 57)",
+    "file": "MSFT_FY2026_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": null
+  },
+  {
+    "id": "nke-fy2021-01",
+    "company": "NKE",
+    "fiscal_year": 2021,
+    "question": "What were Nike’s revenues, net income, and diluted earnings per common share for fiscal 2021?",
+    "gold_answer": "Revenues were $44,538 million, net income was $5,727 million, and diluted earnings per common share was $3.56.",
+    "file": "NKE_FY2021_10K.pdf",
+    "page": 46,
+    "evidence": [
+      {
+        "file": "NKE_FY2021_10K.pdf",
+        "page": 46
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2021_10K.pdf, p.46"
+  },
+  {
+    "id": "nke-fy2021-02",
+    "company": "NKE",
+    "fiscal_year": 2021,
+    "question": "What was Nike’s gross margin in fiscal 2021, and what was it in fiscal 2020?",
+    "gold_answer": "44.8% in fiscal 2021 and 43.4% in fiscal 2020.",
+    "file": "NKE_FY2021_10K.pdf",
+    "page": 46,
+    "evidence": [
+      {
+        "file": "NKE_FY2021_10K.pdf",
+        "page": 46
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2021_10K.pdf, p.46"
+  },
+  {
+    "id": "nke-fy2021-03",
+    "company": "NKE",
+    "fiscal_year": 2021,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2021?",
+    "gold_answer": "Approximately 73,300 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2021_10K.pdf",
+    "page": 12,
+    "evidence": [
+      {
+        "file": "NKE_FY2021_10K.pdf",
+        "page": 12
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2021_10K.pdf, p.12"
+  },
+  {
+    "id": "nke-fy2021-04",
+    "company": "NKE",
+    "fiscal_year": 2021,
+    "question": "What share of total NIKE Brand revenues did NIKE Direct represent in fiscal 2021, compared with fiscal 2020?",
+    "gold_answer": "NIKE Direct revenues represented approximately 39% of total NIKE Brand revenues for fiscal 2021, compared to 35% for fiscal 2020.",
+    "file": "NKE_FY2021_10K.pdf",
+    "page": 49,
+    "evidence": [
+      {
+        "file": "NKE_FY2021_10K.pdf",
+        "page": 49
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2021_10K.pdf, p.49"
+  },
+  {
+    "id": "nke-fy2021-05",
+    "company": "NKE",
+    "fiscal_year": 2021,
+    "question": "What was Nike’s effective tax rate in fiscal 2021, and what did the filing give as the reason for the change from fiscal 2020?",
+    "gold_answer": "It was 14.0% for fiscal 2021, compared to 12.1% for fiscal 2020. The filing attributes the change to a change in the proportion of earnings taxed in the U.S. related to the recovery from the impact of the COVID-19 pandemic, and to less favorable impacts from discrete items such as stock-based compensation.",
+    "file": "NKE_FY2021_10K.pdf",
+    "page": 51,
+    "evidence": [
+      {
+        "file": "NKE_FY2021_10K.pdf",
+        "page": 51
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2021_10K.pdf, p.51"
+  },
+  {
+    "id": "nke-fy2022-01",
+    "company": "NKE",
+    "fiscal_year": 2022,
+    "question": "What were Nike’s revenues, net income, and diluted earnings per common share for fiscal 2022?",
+    "gold_answer": "Revenues were $46,710 million, net income was $6,046 million, and diluted earnings per common share was $3.75.",
+    "file": "NKE_FY2022_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "NKE_FY2022_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2022_10K.pdf, p.44"
+  },
+  {
+    "id": "nke-fy2022-02",
+    "company": "NKE",
+    "fiscal_year": 2022,
+    "question": "What was Nike’s gross margin in fiscal 2022, and what was it in fiscal 2021?",
+    "gold_answer": "46.0% in fiscal 2022 and 44.8% in fiscal 2021.",
+    "file": "NKE_FY2022_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "NKE_FY2022_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2022_10K.pdf, p.44"
+  },
+  {
+    "id": "nke-fy2022-03",
+    "company": "NKE",
+    "fiscal_year": 2022,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2022?",
+    "gold_answer": "Approximately 79,100 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2022_10K.pdf",
+    "page": 14,
+    "evidence": [
+      {
+        "file": "NKE_FY2022_10K.pdf",
+        "page": 14
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2022_10K.pdf, p.14"
+  },
+  {
+    "id": "nke-fy2022-04",
+    "company": "NKE",
+    "fiscal_year": 2022,
+    "question": "What share of total NIKE Brand revenues did NIKE Direct represent in fiscal 2022, compared with fiscal 2021?",
+    "gold_answer": "NIKE Direct revenues represented approximately 42% of total NIKE Brand revenues for fiscal 2022, compared to 39% for fiscal 2021.",
+    "file": "NKE_FY2022_10K.pdf",
+    "page": 47,
+    "evidence": [
+      {
+        "file": "NKE_FY2022_10K.pdf",
+        "page": 47
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2022_10K.pdf, p.47"
+  },
+  {
+    "id": "nke-fy2022-05",
+    "company": "NKE",
+    "fiscal_year": 2022,
+    "question": "How many pairs of Air Force 1 sneakers did Nike sell in fiscal 2022?",
+    "gold_answer": "The filing doesn’t say. It doesn’t mention Air Force 1 anywhere, and it gives no unit sales for any individual shoe model. A correct RAG answer is “not stated in the document”, with no number given.",
+    "file": "NKE_FY2022_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": false,
+    "source_note": "NKE_FY2022_10K.pdf, none (the information is absent)"
+  },
+  {
+    "id": "nke-fy2023-01",
+    "company": "NKE",
+    "fiscal_year": 2023,
+    "question": "What were Nike’s revenues in fiscal 2023, and how much did they increase?",
+    "gold_answer": "Record revenues of $51.2 billion, which increased 10% on a reported basis and 16% on a currency-neutral basis.",
+    "file": "NKE_FY2023_10K.pdf",
+    "page": 40,
+    "evidence": [
+      {
+        "file": "NKE_FY2023_10K.pdf",
+        "page": 40
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2023_10K.pdf, p.40"
+  },
+  {
+    "id": "nke-fy2023-02",
+    "company": "NKE",
+    "fiscal_year": 2023,
+    "question": "How much did NIKE Direct revenues grow in fiscal 2023, and what share of total NIKE Brand revenues did they represent?",
+    "gold_answer": "NIKE Direct revenues grew 14%, from $18.7 billion in fiscal 2022 to $21.3 billion in fiscal 2023, and represented approximately 44% of total NIKE Brand revenues for fiscal 2023.",
+    "file": "NKE_FY2023_10K.pdf",
+    "page": 40,
+    "evidence": [
+      {
+        "file": "NKE_FY2023_10K.pdf",
+        "page": 40
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2023_10K.pdf, p.40"
+  },
+  {
+    "id": "nke-fy2023-03",
+    "company": "NKE",
+    "fiscal_year": 2023,
+    "question": "How much revenue did Nike’s Pegasus running shoe line generate in fiscal 2023?",
+    "gold_answer": "The filing doesn’t say. It doesn’t mention Pegasus anywhere and gives no revenue for individual shoe models. A correct RAG answer is “not stated in the document”, with no number given.",
+    "file": "NKE_FY2023_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": false,
+    "source_note": "NKE_FY2023_10K.pdf, none (the information is absent)"
+  },
+  {
+    "id": "nke-fy2023-04",
+    "company": "NKE",
+    "fiscal_year": 2023,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2023?",
+    "gold_answer": "Approximately 83,700 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2023_10K.pdf",
+    "page": 12,
+    "evidence": [
+      {
+        "file": "NKE_FY2023_10K.pdf",
+        "page": 12
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2023_10K.pdf, p.12"
+  },
+  {
+    "id": "nke-fy2023-05",
+    "company": "NKE",
+    "fiscal_year": 2023,
+    "question": "What was Nike’s effective tax rate in fiscal 2023, and what reasons did the filing give for the change from fiscal 2022?",
+    "gold_answer": "The rate was 18.2% in fiscal 2023, compared to 9.1% in fiscal 2022. The filing says this was primarily due to decreased benefits from stock-based compensation and a non-cash, one-time benefit in the prior year related to the onshoring of certain non-U.S. intangible property ownership rights.",
+    "file": "NKE_FY2023_10K.pdf",
+    "page": 49,
+    "evidence": [
+      {
+        "file": "NKE_FY2023_10K.pdf",
+        "page": 49
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2023_10K.pdf, p.49"
+  },
+  {
+    "id": "nke-fy2024-01",
+    "company": "NKE",
+    "fiscal_year": 2024,
+    "question": "What restructuring charge did Nike record in fiscal 2024, and what was it for?",
+    "gold_answer": "A restructuring charge of $443 million related to the streamlining of the organization, primarily associated with employee severance costs and accelerated stock-based compensation expense.",
+    "file": "NKE_FY2024_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "NKE_FY2024_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2024_10K.pdf, p.44"
+  },
+  {
+    "id": "nke-fy2024-02",
+    "company": "NKE",
+    "fiscal_year": 2024,
+    "question": "How many pairs of Nike Dunk sneakers were sold in fiscal 2024?",
+    "gold_answer": "The filing doesn’t say. It doesn’t mention Dunk anywhere and gives no unit sales for individual shoe models. A correct RAG answer is “not stated in the document”, with no number given.",
+    "file": "NKE_FY2024_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": false,
+    "source_note": "NKE_FY2024_10K.pdf, none (the information is absent)"
+  },
+  {
+    "id": "nke-fy2024-03",
+    "company": "NKE",
+    "fiscal_year": 2024,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2024?",
+    "gold_answer": "Approximately 79,400 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2024_10K.pdf",
+    "page": 13,
+    "evidence": [
+      {
+        "file": "NKE_FY2024_10K.pdf",
+        "page": 13
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2024_10K.pdf, p.13"
+  },
+  {
+    "id": "nke-fy2024-04",
+    "company": "NKE",
+    "fiscal_year": 2024,
+    "question": "What were Nike’s revenues in fiscal 2024 compared with fiscal 2023, and what happened to gross margin?",
+    "gold_answer": "Revenues were $51.4 billion for fiscal 2024, compared to $51.2 billion for fiscal 2023. Gross margin increased 110 basis points to 44.6%.",
+    "file": "NKE_FY2024_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "NKE_FY2024_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2024_10K.pdf, p.44"
+  },
+  {
+    "id": "nke-fy2024-05",
+    "company": "NKE",
+    "fiscal_year": 2024,
+    "question": "What were Nike’s net income and diluted earnings per common share for fiscal 2024, compared with fiscal 2023?",
+    "gold_answer": "Net income was $5,700 million in fiscal 2024 against $5,070 million in fiscal 2023. Diluted earnings per common share was $3.73 against $3.23.",
+    "file": "NKE_FY2024_10K.pdf",
+    "page": 47,
+    "evidence": [
+      {
+        "file": "NKE_FY2024_10K.pdf",
+        "page": 47
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2024_10K.pdf, p.47"
+  },
+  {
+    "id": "nke-fy2025-01",
+    "company": "NKE",
+    "fiscal_year": 2025,
+    "question": "What were Nike’s revenues in fiscal 2025 compared with fiscal 2024, and what happened to NIKE Direct revenues?",
+    "gold_answer": "Revenues were $46.3 billion for fiscal 2025, compared to $51.4 billion for fiscal 2024. NIKE Direct revenues declined 13%, from $21.5 billion in fiscal 2024 to $18.8 billion in fiscal 2025, and represented approximately 42% of total NIKE Brand revenues for fiscal 2025.",
+    "file": "NKE_FY2025_10K.pdf",
+    "page": 40,
+    "evidence": [
+      {
+        "file": "NKE_FY2025_10K.pdf",
+        "page": 40
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2025_10K.pdf, p.40"
+  },
+  {
+    "id": "nke-fy2025-02",
+    "company": "NKE",
+    "fiscal_year": 2025,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2025?",
+    "gold_answer": "Approximately 77,800 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2025_10K.pdf",
+    "page": 13,
+    "evidence": [
+      {
+        "file": "NKE_FY2025_10K.pdf",
+        "page": 13
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2025_10K.pdf, p.13"
+  },
+  {
+    "id": "nke-fy2025-03",
+    "company": "NKE",
+    "fiscal_year": 2025,
+    "question": "What were Nike’s net income and diluted earnings per common share for fiscal 2025, compared with fiscal 2024?",
+    "gold_answer": "Net income was $3,219 million in fiscal 2025 against $5,700 million in fiscal 2024. Diluted earnings per common share was $2.16 against $3.73.",
+    "file": "NKE_FY2025_10K.pdf",
+    "page": 44,
+    "evidence": [
+      {
+        "file": "NKE_FY2025_10K.pdf",
+        "page": 44
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2025_10K.pdf, p.44"
+  },
+  {
+    "id": "nke-fy2025-04",
+    "company": "NKE",
+    "fiscal_year": 2025,
+    "question": "How many TikTok followers did Nike have at the end of fiscal 2025?",
+    "gold_answer": "The filing doesn’t say. It doesn’t mention TikTok or follower counts anywhere. A correct RAG answer is “not stated in the document”, with no number given.",
+    "file": "NKE_FY2025_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": false,
+    "source_note": "NKE_FY2025_10K.pdf, none (the information is absent)"
+  },
+  {
+    "id": "nke-fy2025-05",
+    "company": "NKE",
+    "fiscal_year": 2025,
+    "question": "What happened to Nike’s gross margin in fiscal 2025, and what did the filing give as the reasons?",
+    "gold_answer": "Gross margin decreased 190 basis points to 42.7%, primarily due to higher discounts, changes in channel mix and higher inventory obsolescence reserves, partially offset by lower product costs.",
+    "file": "NKE_FY2025_10K.pdf",
+    "page": 40,
+    "evidence": [
+      {
+        "file": "NKE_FY2025_10K.pdf",
+        "page": 40
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2025_10K.pdf, p.40"
+  },
+  {
+    "id": "nke-fy2026-01",
+    "company": "NKE",
+    "fiscal_year": 2026,
+    "question": "Who is Nike’s Chief Marketing Officer, according to the FY2026 10-K?",
+    "gold_answer": "The filing doesn’t say. The title “Chief Marketing Officer” doesn’t appear anywhere in it. A correct RAG answer is “not stated in the document”, with no name given.",
+    "file": "NKE_FY2026_10K.pdf",
+    "page": null,
+    "evidence": [],
+    "unanswerable": true,
+    "multi_source": false,
+    "source_note": "NKE_FY2026_10K.pdf, none (the information is absent)"
+  },
+  {
+    "id": "nke-fy2026-02",
+    "company": "NKE",
+    "fiscal_year": 2026,
+    "question": "What were Nike’s revenues in fiscal 2026 compared with fiscal 2025?",
+    "gold_answer": "Revenues were $46.4 billion in fiscal 2026 compared to $46.3 billion in fiscal 2025, flat on a reported basis and down 2% on a currency-neutral basis.",
+    "file": "NKE_FY2026_10K.pdf",
+    "page": 48,
+    "evidence": [
+      {
+        "file": "NKE_FY2026_10K.pdf",
+        "page": 48
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2026_10K.pdf, p.48"
+  },
+  {
+    "id": "nke-fy2026-03",
+    "company": "NKE",
+    "fiscal_year": 2026,
+    "question": "What were NIKE Direct revenues in fiscal 2026, and what did the filing give as the reason for the change?",
+    "gold_answer": "NIKE Direct revenues were $17.7 billion in fiscal 2026 compared to $18.8 billion in fiscal 2025, primarily driven by a decrease in traffic.",
+    "file": "NKE_FY2026_10K.pdf",
+    "page": 48,
+    "evidence": [
+      {
+        "file": "NKE_FY2026_10K.pdf",
+        "page": 48
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2026_10K.pdf, p.48"
+  },
+  {
+    "id": "nke-fy2026-04",
+    "company": "NKE",
+    "fiscal_year": 2026,
+    "question": "How many employees did Nike have worldwide at the end of fiscal 2026?",
+    "gold_answer": "Approximately 73,000 employees worldwide, including retail and part-time employees.",
+    "file": "NKE_FY2026_10K.pdf",
+    "page": 14,
+    "evidence": [
+      {
+        "file": "NKE_FY2026_10K.pdf",
+        "page": 14
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2026_10K.pdf, p.14"
+  },
+  {
+    "id": "nke-fy2026-05",
+    "company": "NKE",
+    "fiscal_year": 2026,
+    "question": "What were Nike’s net income and diluted earnings per common share for fiscal 2026, compared with fiscal 2025?",
+    "gold_answer": "Net income was $3,108 million in fiscal 2026 against $3,219 million in fiscal 2025. Diluted earnings per common share was $2.10 against $2.16.",
+    "file": "NKE_FY2026_10K.pdf",
+    "page": 52,
+    "evidence": [
+      {
+        "file": "NKE_FY2026_10K.pdf",
+        "page": 52
+      }
+    ],
+    "unanswerable": false,
+    "multi_source": false,
+    "source_note": "NKE_FY2026_10K.pdf, p.52"
+  }
+]

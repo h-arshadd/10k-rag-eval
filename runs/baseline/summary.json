@@ -1,0 +1,31 @@
+{
+  "questions": 52,
+  "scored_answerable": 40,
+  "unanswerable": 7,
+  "manual_review": 5,
+  "errors": 0,
+  "accuracy": 0.575,
+  "unanswerable_correctly_refused": 1.0,
+  "hit@1": 0.286,
+  "hit@3": 0.429,
+  "hit@5": 0.5,
+  "hit@10": 0.595,
+  "recall@1": 0.25,
+  "recall@3": 0.377,
+  "recall@5": 0.456,
+  "recall@10": 0.571,
+  "mrr": 0.382,
+  "facts_in_context@5": 0.65,
+  "cited_file": 0.786,
+  "cited_page": 0.476,
+  "accuracy[MSFT]": 0.333,
+  "accuracy[NKE]": 0.72,
+  "accuracy[single]": 0.622,
+  "accuracy[multi_source]": 0.0,
+  "failure_reasons": {
+    "retrieval: no gold page in top 5": 12,
+    "generation: numbers were in the context but missing/wrong in the answer": 3,
+    "context: right page retrieved but the numbers are not all in the top-5 chunks": 1,
+    "generation: said it doesn't know although the numbers were in the context": 1
+  }
+}

@@ -2,12 +2,11 @@ from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 
-from embed import get_vector_store
+from retrieve import search
 
 load_dotenv()  # reads GROQ_API_KEY from .env
 
-vector_store = get_vector_store()
-llm = ChatGroq(model="openai/gpt-oss-120b")
+llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0)
 
 prompt = PromptTemplate.from_template("""
     You are a helpful assistant. Answer the question using only the context.
@@ -20,7 +19,7 @@ prompt = PromptTemplate.from_template("""
 
 # Chain: get_context | prompt | llm
 def get_context(query: str):
-    data = vector_store.similarity_search(query=query, k=5)
+    data = search(query, k=5)  # v2: searches only the company/year filings named in the question
     context = ""
     for doc in data:
         page = doc.metadata["page"] + 1  # PyMuPDF counts pages from 0
